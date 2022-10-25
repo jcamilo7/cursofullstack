@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios</h1>
+    </header>
+    <main>
+        <span>Todos los campos que esten acompañados de un signo * son obligatorios</span>
+        <form action="">
+            <label for="inputtexto">
+                <span>Nombre *:</span>
+                <input type="text" id="inputtexto" required autocomplete="" >
+            </label>
+            <label for="inputfecha">
+                <span>Ingrese la fecha de llegada:</span>  
+                <input type="date" id="inputfecha"
+            </label>
+            <label for="inputnumero">
+                <span>Ingrese numero de cedula:</span>
+                <input type="number" id="inputNumero">
+            </label>
+            <label for="inputpassword">
+                <span>Ingrese una contraseña:</span>
+                <input type="password" id="inputpassword">
+            </label>
+            <label for="inputtime">
+                <span>Ingrese
+                     hora de llegada:</span>
+                <input type="time" id="inputtime">
+            </label>
+            <label for="inputsubmit">
+                <span></span>
+                <input type="submit" id="inputsubmit">
+            </label>
+        </form>
+        <section>
+            <h2>Etiquetas listas y de ancla</h2>
+            <select name="cursos" id="">
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML y CSS">Html y CSS</option>
+                <option value="Node">Node</option>
+                <option value="C#">C#</option>
+                <option value="C">C#</option>
+                <option value="C++">C#</option>
+            </select>
+            <input list="curso">
+            <datalist id="curso">
+                <option value="JavaScript"></option>
+                <option value="HTML y CSS"></option>
+                <option value="Node"></option>
+                <option value="C#"></option>
+                <option value="C"></option>
+                <option value="C++"></option>
+            </datalist>
+            <a href="">Google</a>
+        </section>
+    </main>
+</body>
+</html>

@@ -1,0 +1,26 @@
+.header-nav{
+    list-style: none;
+    background-color: aquamarine;
+}
+
+.header-nav__item{
+    display:inline-block;
+}
+
+.header-nav__item a{
+    color:white;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.header-nav__item a:hover{
+    color:brown;
+}
+
+.header-nav__item a:active{
+    background-color: burlywood;
+}
+
+.header-nav__item a::after{
+    content: " | ";
+}

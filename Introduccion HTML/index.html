@@ -1,0 +1,54 @@
+<!DOCTYPE html><!--Esta etiqueta nos permite indicarle al navegador que vamos a trabajar con HTML 5-->
+<html lang="es"><!--Etiqueta principal, contenedora de toda la estructura HTML, como buena practica
+debemos incluir el atributo "lang" para indicarle al navegador en que lenguaje se encuentra nuestra pagina-->
+    <head><!--Etiqueta contendedora de todos los metadatos de nuestra pagina, en otras palabras dentro de
+    esta etiqueta estaran etiquetas que le indiquen al navegador contenido de ayuda que debe cargar para nuestra
+    pagina. Todo lo que se encuentra en esta etiqueta no sera visible para nuestros usuarios-->
+        <meta charset="UTF-8"><!--La etiqueta meta nos ayuda para indicarle al navegador como 
+        tratar nuestra pagina, en este caso con el atributo charset="UTF-8", el navegador podra
+        entender diferentes caracteres especiales o los asentos propios del español-->
+        <meta name="description" content="Introducción al HTML"><!--Con los atributos name="description" 
+        y content podremos mostrar información cuando nuestra pagina aparezca en moteres de busqueda-->
+        <title>Introduccion</title><!--Etiqueta que permite mostrar el nombre de la pagina en el 
+        navegador, en la sesion de pestañas-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--Con los atributos 
+        name="viewport" y content, podemos indicar ayuda para que nuestra pagina sea responsive-->
+        <link rel="stylesheet" href="./style.css"><!--Etiqueta de relacion para cargar otros archivos, 
+        con el atributo rel indicamos que tipo de caracteristicas cargaremos, en este caso sera una hoja
+        de estilo y con el atributo href indicamos la ubicacion del archivo a cargar-->
+    </head><!--Etiqueta de cierre head-->
+    <body><!--Etiqueta contenedora de todo el contenido visual y con el cual podra interactuar el usuario-->
+        <header><!--Etiqueta contenedora del encabezado de nuestra pagina-->
+            Introducción al HTML
+        </header>
+        <main><!--Etiqueta contenedora del contenido principal de nuestra pagina-->
+            <section><!--Etiqueta para agrupa secciones con las que interactura el usuario-->
+                <article><!--Etiqueta contendora de información de nuestra pagina-->
+                    <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum</p>
+                    <!--Etiqueta contenedora de texto-->
+                </article><!--Etiqueta cierre de articule-->
+            </section><!--Etiqueta cierre de section-->
+            <ul><!--Etiqueta para representar listas desorganizadas-->
+                <li><!--Etiqueta que contiene un elemento de nuestra lista-->
+                    Manzada
+                </li><!--Etiqueta cierre li-->
+                <li>Pera</li>
+                <li>Banano</li>
+            </ul><!--Etiqueta cierre ul-->
+            <h1><!--Etiqueta de encabezado, para representar titulos, va desde el 1 al 6 entre más 
+            grande el numero, el tamaño del texto sera menor-->
+                Titulo 1
+            </h1><!--Etiqueta cierre de h1-->
+            <h2>Titulo 2</h2>
+            <h4>Titulo 4</h4>
+            <a href="https://www.google.com/"><!--Etiqueta para expresar hipervinculos que nos ayuden
+            a nevagar por otras paginas de nuestro proyecto o paginas que no son de nuestra propiedad-->
+                Google
+            </a><!--Etiqueta cierre a-->
+            <img src="./gato.png" alt=""><!--Etiqueta para cargar imagenes a nuestra pagina, con el artributo
+            scr indicamos donde se encuentra la imagen y el atributo alt nos permite mostrar un texto 
+            alternativo por si la imagen no carga. Etiqueta no tiene cierre-->
+            <!--Agregue un comentario-->
+        </main><!--Etiqueta cierre de main-->
+    </body><!--Etiqueta cierre body-->
+</html><!--Etiqueta cierre html-->

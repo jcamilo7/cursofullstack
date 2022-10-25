@@ -1,0 +1,36 @@
+html{
+    font-size: 75%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+    font-size: inherit;
+}
+
+h1{
+    color:crimson;
+    font-size: 50px;
+}
+
+p:hover{
+    color:darkseagreen;
+}
+
+p::first-letter{
+    font-size: 80px;
+}
+
+.parrafo{
+    font-size: 30px;
+}
+
+#parrafouno{
+    color: black;
+    border: solid 1px;
+}
+
+input[type="text"]:active{
+    width: 40px;
+    height: 50px;
+}
+
