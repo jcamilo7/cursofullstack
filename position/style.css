@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%
+}
+
+.parent{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: 0.2rem black dotted;
+    display: inline-block;
+    height: 11rem;
+}
+
+.box{
+    display: inline-block;
+    background-color: red;
+    width: 10rem;
+    height: 10rem;
+}
+
+#two{
+    background-color: green;
+}
+
+.contenedor{
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    width: 50rem;
+    height: 50rem;
+    border: 0.2rem solid green;
+    position: relative;
+}
+
+.hijo{
+    position: absolute;
+    width: 20rem;
+    height: 20rem;
+    background-color: brown;
+    right: 10rem;
+}

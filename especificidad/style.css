@@ -1,0 +1,42 @@
+p{
+    font-size: 24px;
+    color:blue;
+}
+
+.classparrafo{
+    font-size: 20px;
+    color:purple !important;
+}
+
+#idparrafo{
+    font-size: 50px;
+    color:yellow;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.nav li{
+    display: inline-block;
+}
+
+.nav a{
+    color:white;
+    background-color: #13a4a4;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav .blog{
+    background-color: red;
+}
