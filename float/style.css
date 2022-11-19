@@ -1,0 +1,42 @@
+/*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+
+html{
+    font-size: 62.5%;
+}
+
+.div1{
+    width: 25rem;
+    height: 25rem;
+    /*background-color: brown;*/
+    border: 0.1rem solid black;
+    float: left;
+}
+
+.divcontenedor1{
+    width: 10rem;
+    height: 10rem;
+    background-color: brown;
+}
+
+.divcontenedor2{
+    width: 10rem;
+    height: 10rem;
+    background-color: blue;
+}
+
+.div2{
+    width: 25rem;
+    height: 25rem;
+    background-color: blue;
+    float: left;
+}
+
+/*.div3{
+    width: 25rem;
+    height: 25rem;
+    background-color: yellow;
+}*/

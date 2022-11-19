@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    height: 7vh;
+    border: solid 0.1rem rgba(13, 161, 211, 0.719);
+    background-color: rgba(13, 162, 211, 0.41);
+}
+
+.header-figure{
+    border: 0.2rem solid aquamarine;
+    width: 4rem;
+    height: 4rem;
+    margin: 1.6rem;
+    display: inline-block;
+}
+
+.header-nav{
+    float: right;
+    margin: 1.6rem
+}
+
+.header-nav__list{
+    list-style: none;
+    font-size: 2.6rem;
+}
+
+.header-nav__list li{
+    display: inline-block;
+    padding: 0.6rem;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.header-nav__list li a{
+    text-decoration: none;
+}
+
+.header-nav__list li a:hover{
+    font-size: 3rem;
+}
+
+main{
+    height: 86vh;
+    display:inline-block;
+    position: absolute;
+    background-color: rgba(34,215,34, 0.596);
+}
+
+h1{
+    display: inline-block;
+}
+
+main section{
+    display: inline-block;
+}
+
+aside{
+    height: 86vh;
+    display: inline-block;
+    width: 25vw;
+    border: 0.2rem solid rgba(211,31,31,0.719);
+    background-color: rgba(229,53,53,0.539);
+}
+
+.aside-section{
+    border: 0.1rem solid #758194;
+    height: 30%;
+    width: 80%;
+    margin: 2.6rem;
+}
+
+footer{
+    height: 7vh;
+    border: solid 0.2rem rgba(228,221,18, 0.925);
+    background-color: rgba(219,213,38, 0.79);
+    padding: 3rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 3.6rem;
+}
+

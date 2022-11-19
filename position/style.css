@@ -8,6 +8,10 @@ html{
     font-size: 62.5%
 }
 
+main{
+    height: 6000rem;
+}
+
 .parent{
     margin-top: 10rem;
     margin-left: 10rem;
@@ -42,4 +46,19 @@ html{
     height: 20rem;
     background-color: brown;
     right: 10rem;
+}
+
+.fijo{
+    width: 80rem;
+    height: 5rem;
+    border: 0.1rem solid green;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+h1{
+    position: sticky;
+    top: 0;
+    background-color: green;
 }

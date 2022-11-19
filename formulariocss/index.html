@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h2>Registro</h2>
+        <form action="#">
+            <label for="inputNombres">
+                <span>Nombres</span>
+                <input type="text" id="inputNombres" placeholder="Ingresa tu nombre">
+            </label>
+            <label for="inputApellidos">
+                <span>Apellidos</span>
+                <input type="text" id="inputApellidos">
+            </label>
+            <label for="datalistNacialidad">
+                <span>Nacionalidad</span>
+                <input list="datalistNacialidad">
+                <datalist id="datalistNacialidad">
+                    <option value="Argentina"></option>
+                    <option value="Australia"></option>
+                    <option value="Colombia"></option>
+                    <option value="Chile"></option>
+                    <option value="Inglaterra"></option>
+                    <option value="India"></option>
+                    <option value="Peru"></option>
+                    <option value="Panama"></option>
+                </datalist>
+            </label>
+            <label for="inputCorreo">
+                <span>Correo</span>
+                <input type="emial" id="inputCorreo">
+            </label>
+            <div class="input-icono">
+                <input type="email" placeholder="Ingresa tu correo">
+            </div>
+            <label for="inputEdad">
+                <span>Edad</span>
+                <input type="number" id="inputEdad">
+            </label>
+            <button>Enviar</button>
+        </form>
+    </main>
+</body>
+</html>

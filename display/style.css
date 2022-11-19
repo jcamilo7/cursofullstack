@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    margin-top: 200px;
+}
+
+.nav{
+    background-color: antiquewhite;
+    text-align: center;
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+}
