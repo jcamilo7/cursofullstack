@@ -1,0 +1,23 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.contenedor{
+    border: 0.5rem solid #003476;
+    background-color: #b4d2f7;
+    display: grid;
+    grid-template-rows: 10rem 20rem 10rem;
+    grid-auto-flow: column;
+    gap:3rem;
+}
+
+.item{
+    border: 0.5rem solid chocolate;
+    font-size: 2rem;
+}
